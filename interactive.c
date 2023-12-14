@@ -29,7 +29,9 @@ printf("./shell: No such file or directory\n");
 exit(0);
 }
 wait(&status);
+if (buffer != NULL)
 free(buffer);
+if (fullpath != NULL)
 free(fullpath);
 }
 }
