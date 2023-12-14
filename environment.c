@@ -4,12 +4,12 @@
  * Return: zero
  */
 
-int print_env()
+int print_env(void)
 {
 int i = 0;
 while (env[i])
 {
 printf("%s\n", env[i++]);
 }
-return(0);
+return (0);
 }
