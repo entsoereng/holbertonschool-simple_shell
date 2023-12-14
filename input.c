@@ -23,7 +23,6 @@ exit(0);
 }
 tok = strtok(buffer, " \n");
 if (tok == NULL)
-free(buffer);
 return (NULL);
 if (strcmp(tok, "exit") == 0)
 {
@@ -42,7 +41,5 @@ tok = strtok(NULL, " \n");
 split[i++] = tok;
 }
 split[i - 1] = NULL;
-free(buffer);
-free(split);
 return (split);
 }
