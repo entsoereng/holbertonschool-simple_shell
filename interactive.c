@@ -1,10 +1,10 @@
 #include "shells.h"
 
 /**
-* user_console - launches user console for input
-* @envp: environmental variable
-* Return: array of tokens
-*/
+ * user_console - launches user console for input
+ * @envp: environmental variable
+ * Return: array of tokens
+ */
 
 char **user_console(char **envp)
 {
