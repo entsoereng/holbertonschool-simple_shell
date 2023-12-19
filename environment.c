@@ -1,10 +1,11 @@
 #include "shells.h"
+
 /**
  * print_env - prints the environment
  * Return: zero
  */
 
-int print_env(void)
+int print_env()
 {
 int i = 0;
 while (env[i])
