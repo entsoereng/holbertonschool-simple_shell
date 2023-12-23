@@ -12,7 +12,7 @@ extern char *fullpath;
 extern char *buffer;
 extern char *split[32];
 extern char **env;
-int print_env();
+int print_env(void);
 char **tokenize();
 char **user_console(char **envp);
 char **pathfinder(char *command);
