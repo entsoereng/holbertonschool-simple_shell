@@ -5,7 +5,7 @@
  * Return: zero
  */
 
-int print_env()
+int print_env(void)
 {
 int i = 0;
 while (env[i])
